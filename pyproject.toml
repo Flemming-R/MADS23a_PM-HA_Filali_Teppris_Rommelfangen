@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "code-ha-process-mining"
+version = "0.1.0"
+description = ""
+authors = ["FlemmingR <146717357+Flemming-R@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12" 
+matplotlib = "^3.9.1.post1"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+pm4py = "^2.7.11.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
